@@ -51,4 +51,17 @@ scalemin = {
     \scaleMaj
     \scalemin
   }
+  \transpose c' e' {
+    \scaleMaj
+    \scalemin
+  }
+  \transpose c' a {
+    \scaleMaj
+    \scalemin
+  }
+  \transpose c' d' {
+    \scaleMaj
+    \scalemin
+  }
+    \scaleMaj
 }
