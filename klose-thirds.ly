@@ -37,4 +37,18 @@ scalemin = {
     \scaleMaj
     \scalemin
   }
+  \transpose c' df' { 
+    \scaleMaj
+    \scalemin
+  }
+  \transpose c' gf { 
+    \scaleMaj
+    \transpose c c' {
+      \scalemin
+    }
+  }
+  \transpose c' b {
+    \scaleMaj
+    \scalemin
+  }
 }
