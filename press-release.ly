@@ -108,5 +108,41 @@ sim = \markup { \italic sim.}
   f16 [c'''8 af'16] r [ef bf''8] f16 [bf''8 a'16] a''( [bf'') ef8(]  | %50
   \time 17/16
   f16) [c'''8 af'16] r [ef bf''8] f16 [bf''8 a'16] a''?( [bf'') e c'''-^] r |
+  \time 8/8
+  f16 [bf''8 af'16]  r [ef a''8] f16 [a''8 a'16] bf''( [c''') ef8(]  |
+  \time 17/16
+  f16) [bf''8 af'16] r [ef a''8] f16 [a''8 a'16] bf''16( [c'') ef bf'' ] r |
+  \time 19/16
+  f16 [a''8 af'16] r [g'\pp( f''8--)] ef16\ff [bf''8 f16] bf''8 [a'16 (c'''] bf'')[ ef8( ]|
+  \time 10/8
+  f16) [a''8 af'16] r [f'\pp ( ef''8--)] ef16\ff [bf''8 f16] bf''8 [af'16 c'''(] bf'') ^[e a''-^ r] | %55
+  \time 19/16
+  f16 [bf''8 af'16] r [ef'\pp( df''8--)] ef16\ff [c'''8 f16] c'''8 [af'16 bf(] a16)[ ef8( ] |
+  \time 10/8
+  f16) [bf''8 af'16] r [df'\pp( df''8--)] ef16\ff [c'''8 f16] c'''8 [af'16 bf''(] a16) [ef bf''-^ r]  |
+  \time 19/16
+  f16 [c'''8 af'16] r [ef'\pp( df''8--)] ef16\ff [bf''8 f16] bf''8 [af'16 a''16( ] bf'') [e8(] | 
+  \time 10/8
+  f16) [c'''8 af'16] r [f'\pp( ef''8--)] ef16\ff [bf''8 f16] bf''8 [af'16 a''(] bf'') [ef c'''-^ r] |
+  \time 19/16
+  f16 [bf''8 af'16] r [g'16\pp( f''8--)] ef16\ff [a''8 f16] a''8 [a16 bf''(] c'''16) [ef8(] | %60
+  \time 10/8
+  f16) [bf''8 af'16] r [a'\pp( g''8--)] ef16\ff [a''8 f16] a''8 [a16 bf''(] c'''16) [e bf''-^] r |
+  \relative {
+    \repeat volta 2 { 
+    \time 17/16
+    a''([ bf f) a(] bf [f) a( bf] f) [a( bf f)] a( [f) a (bf] a) |
+    \time 21/16
+    ef( [bf' a) ef(] bf')[ ef,( bf' a)] ef([ a) ef( a] bf [a)  ef( bf')] ef,([bf') a (bf] c) |
+    }
+    \time 17/16
+    a( [bf f) a(] bf)[ r a( bf ] f) [r bf( f)] a([ f) a( bf)] r |
+    \time 21/16
+    [ef,( bf' a) ] r bf [ef,( bf' a)]  ef( [a) r a(]  bf [a) r bf]  ef,( [bf') a( bf] c) | %65
+    \time 17/16
+    r bf( [f) a] r f [a( bf] f) [a( bf)] r a [f( a)] r a |
+    \time 21/16
+    ef( [bf' a) ef(] bf') [r bf( a)] ef [r ef( a] bf [a) ef( bf')] r bf [a( bf)] r |
+  }
 }
 
