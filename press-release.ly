@@ -143,6 +143,75 @@ sim = \markup { \italic sim.}
     r bf( [f) a] r f [a( bf] f) [a( bf)] r a [f( a)] r a |
     \time 21/16
     ef( [bf' a) ef(] bf') [r bf( a)] ef [r ef( a] bf [a) ef( bf')] r bf [a( bf)] r |
+    \time 17/16
+    \xNote{f,,->\ff[} bf''\pp( f) a(] bf [f) r bf(] f) [a r f(] a) [\xNote{f,,->\ff} a''\pp( bf] a) |
+    \time 21/16
+    r bf( [a) ef]  r [ef( bf' a)] \xNote{f,,->\ff[} a''\pp( ef)] r  bf'( [a) ef r] ef( [bf') a( bf)] \xNote{ef,,,->\ff} |
+    \time 17/16
+    a''\pp[ r f a(] bf) [r a( bf] f) [a \xNote{f,,->\ff} f''\pp] r [f a( bf)] r |  %70
+    \time 21/16
+    ef,( [bf' a) \xNote{gf,,->\ff]}  bf''\pp( [ef,) r a]  ef( [a) r a(] bf) [ \xNote{gf,,->\ff} ef''\pp( bf')] ef, [r a( bf] c) |
+    \time 17/16
+    r[ \xNote{af,,->\ff} f''\pp a?(] bf[ f) a r] f( [a) \xNote{af,,->\ff} r] a''\pp( [f) a( bf] a) |
+    \time 21/16 
+    ef[ \xNote{a,,?->\ff} a''\pp( ef] bf')[ r bf( a)] ef? \xNote{a,,->\ff} ef''\pp( a)] r[ a ef( bf')] r[ \xNote{a,,->\ff} a''\pp( bf] c) |
+    \time 17/16
+    a([ bf) r \xNote{bf,,->\ff]} bf''\pp([ f) r bf(] f)[ a \xNote{bf,,->\ff} f''(] a)[ r a( bf] a) |
+    \time 21/16
+    \xNote{b,,?->\ff[} bf''\pp( a) ef(] bf')[ef, \xNote{b,->\ff} a''(] ef)[a r a] \xNote{b,,->\ff[} a''\pp ef( bf')] ef, [r \xNote{b,->\ff} bf''\pp(] c) | %75
+    \time 17/16
+    r [bf \xNote{df,,->\ff} a''(] bf) [f( a) \xNote{df,,->\ff]} f'\pp([ a? bf) r] \xNote{df,,->\ff[} f' a( bf] a) |
+    \time 21/16
+    \xNote{d,,?\ff[} r a''\pp ef(] bf') [\xNote{d,,\ff} bf''( a)] ef( [a) \xNote{d,,\ff} a''] r [a( ef) \xNote{d,\ff]} r [bf''\pp a( bf)] \xNote{d,,\ff} |
+    \time 17/16
+    a''([ bf) \xNote{ef,,\ff} a'\pp(] bf)[ \xNote{ef,,\ff} r bf''\pp] \xNote{ef,,\ff[} a'\pp( bf) \xNote{ef,,\ff]} a'\pp [r \xNote{ef,\ff} bf''(] a) |
+    \time 21/16
+    \xNote{f,\ff[} bf'( a) \xNote{f,\ff]} 
+    bf'\pp[( ef,) \xNote{f,\ff} r]
+    ef'\pp[ \xNote{f,\ff} ef'\pp r]
+    \xNote{f,\ff[} a'\pp( ef) \xNote{f,\ff]}
+    ef'([ bf') \xNote{f,\ff} bf'(] c) |
+    \time 17/16  % 80
+    \xNote{gf,\ff[} f, a''\pp \xNote{gf,\ff]}
+    af'\pp [r \xNote{gf\ff} ef,] bf''\pp[\xNote{gf,} bf'8] \xNote{gf,16[} bf'8\< \xNote{gf,16]} bf'-^\ff |
+    \time 7/16
+    fs,,8->\pp[ gs->] a->[ b16->] |
+    fs16-> [cs' gs-> cs] a-> [cs b->] |
+    \time 9/16
+    fs->[ cs' gs-> cs] a-> [cs b-> cs] c |
+    \time 7/16
+    fs,-> [cs' gs cs] a[ cs b] |
+    \time 9/16   %85
+    fs [e' gs, e'] a, [e' b e] c |
+    \time 7/16  
+    fs, [ds' gs, ds'] a [ds b] |
+    \time 9/16
+    fs [ds' gs, ds'] a[ ds b ds] bs |
+    \time 7/16
+    fs [ds' gs, cs] a[ cs b] |
+    fs [cs' gs cs] a[cs b] |
+    fs [e' gs, e'] a,[e' b] |  %90
+    fs [ds' gs, ds'] a [ds b] |
+    \time 9/16
+    fs [ds' gs, ds'] a [ds b ds] bs |
+    \time 7/16
+    fs [cs' gs cs] a[ cs b] |
+    \time 9/16
+    fs [e' gs, e'] a, [e' b e] c |
+    \time 7/16
+    fs, [e' gs, e'] a, [ds b] |  %95
+    \time 9/16
+    fs [ds' gs, ds'] a [ds b ds] bs |
+    \time 7/16
+    fs [ds' gs, fs'] a, [fs' b,] |
+    fs [fs' gs, fs'] a, [fs' b,] |
+    \time 8/8  %99
+    fs-> [fs' fs' e,->] 
+    fs'[r d,,-> d']  
+    fs' [e,,-> e' a'] 
+    r [e,-> a' gs] |  %99
+  
+    
   }
 }
 
