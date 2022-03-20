@@ -7,15 +7,16 @@
 
 parenF = \markup { \center-align \concat { \bold { \italic (  }  \dynamic f \bold { \italic )  } } }
 long = \markup { \fontsize #-2.0 \italic long }
-
-\header{
-  title = "Symphony/BCl, Bsn"
-  composer = "Franck"
-}
-
 pocoCresc = \markup {\italic "poco cresc." } 
 cresc = \markup {\italic cresc. } 
 
+\bookpart {
+\header{
+  title = "Symphony/BCl, Bsn"
+  composer = "Franck"
+  subtitle="I"
+}
+\score{
 \compressMMRests {
   \set Score.markFormatter = #format-mark-alphabet
   \tempo "Lento"
@@ -488,3 +489,89 @@ cresc = \markup {\italic cresc. }
     e8 r8 r4 r2 \bar "|."
   }
 }
+} %score
+} % bookpart
+\bookpart
+{
+  \header {
+    subtitle = "II"
+  }
+  \score { 
+    \compressMMRests {
+      \set Score.markFormatter = #format-mark-alphabet
+      \tempo "Lento"
+      \key ef \major
+      \time 3/4 
+      \clef bass
+      \relative {
+        \partial 4 r4
+        R2. * 15 \mark \default %A
+        R2. * 23 \mark \default %B
+        R2. * 9 \mark \default %C
+        R2. 
+        \key c \major
+        R2. * 8
+        << {g2(\p ef4)} {s\< s s\>}  >>
+        af,4.\!( bf8 c4~\<
+        c2) af4\>
+        df2\! df'4~\p(
+        df_\cresc c) c(~
+        c b bf)
+        af\f( g f)  %63
+        \mark \default %D
+        e2 e4(\<
+        d2\!) e4\<(
+        d2\!) r4 | 
+        r4 r4 f4\p
+        a8( e_\cresc a c ds e) |
+        e4(\f c2_"dim.")
+        df4.\p( bf8 ef4~ %70
+        ef4~ ef8) r8 r4  
+        r4 r4 c4\pp( 
+        a2) c4(
+        a2) r4
+        R2.
+        r4 r4 cs,8( e_\cresc) \mark \default |  %E %77
+        g2 c,8( e) |
+        g2 e8\f( f) |
+        f2 gs8( a) |
+        a2 b8( c) |
+        c2.~ |
+        c~ |
+        c_"dim." |
+        a\pp |
+        R2. * 5 |
+        r4\fermata r2 |
+        R2. * 3 |
+        r4 r4 b,\mf(  |
+        e,2 \tempo "poco rall." b'4\pp  |
+        \mark \default %F
+        e,4\fermata) r4 r4 |
+        \tempo "a tempo"
+        R2. * 2
+        \tempo "poco rall."
+        r2.
+        r4 r4\fermata r4
+        \tempo "a tempo"
+        R2. * 2 
+        R2.
+        \tempo "poco rall."
+        r4 r4\fermata r4
+        \tempo "a tempo"
+        R2.
+        \tempo "rall."
+        R2.
+        r4 r4\fermata \tempo "a tempo" r4 |
+        R2. * 4
+        \mark \default %G
+        R2.
+        r4 r4 g'\pp(
+        a bf b
+        c8) r8 r4 r4
+        R2. * 7
+        \mark \default % H
+        R2. * 4
+      } %relative
+    }
+  } %score
+} %bookpart
