@@ -3,21 +3,22 @@
 #(set-global-staff-size 18)
 
 \paper {
-  system-system-spacing.basic-distance = #16
-  ragged-bottom = ##true      
+  system-system-spacing.basic-distance = #18
   #(set-paper-size "letter")
 }
 
 parenF = \markup { \center-align \concat { \bold { \italic (  }  \dynamic f \bold { \italic )  } } }
 parenFF = \markup { \center-align \concat { \bold { \italic (  }  \dynamic ff \bold { \italic )  } } }
 parenP = \markup { \center-align \concat { \bold { \italic (  }  \dynamic p \bold { \italic )  } } }
-smallF = \markup { \fontsize #-1.4 \dynamic { f }}
-smallFF = \markup { \fontsize #-1.4 \dynamic { ff }}
-smallP = \markup { \fontsize #-1.4 \dynamic { p }}
-smallPP = \markup { \fontsize #-1.4 \dynamic { pp }}
-smallFFF = \markup { \fontsize #-1.4 \dynamic { fff }}
-smallPPP = \markup { \fontsize #-1.4 \dynamic { ppp }}
+smallF = \markup { \fontsize #-1.6 \dynamic { f }}
+smallFF = \markup { \fontsize #-1.6 \dynamic { ff }}
+smallP = \markup { \fontsize #-1.6 \dynamic { p }}
+smallPP = \markup { \fontsize #-1.6 \dynamic { pp }}
+smallFFF = \markup { \fontsize #-1.6 \dynamic { fff }}
+smallPPP = \markup { \fontsize #-1.6 \dynamic { ppp }}
 sim = \markup { \italic sim.}
+long = \markup { \fontsize #-2.0 \italic long }
+growl = \markup { \fontsize #-2.0 growl }
 
 \header{
   title = "Press Release"
@@ -66,7 +67,7 @@ sim = \markup { \italic sim.}
   \time 23/16
   d'16 [e''8 d'16] e''8 [d'16 e''~] e'' [d'\> e''8] d'16 [e''8 d'16] e''8 [d'16 e''~] e'' [d' e''] | %25
   \time 8/8
-  d16->\f [e''8_\smallP f16->_\smallF] e''8 [g16_\sim e''~] e'' [a e''8] c'16 [e'' d' e''] |
+  d16->\!_\smallF [e''8_\smallP f16->_\smallF] e''8 [g16_\sim e''~] e'' [a e''8] c'16 [e'' d' e''] |
   \time 15/16
   d16 [e''8 f16] e''8 [g16 e''~] e'' [a e'' c'] e'' [d' e''] |
   \time 7/8
@@ -121,21 +122,21 @@ sim = \markup { \italic sim.}
   \time 17/16
   f16) [bf''8 af'16] r [ef a''8] f16 [a''8 af'16] bf''16( [c''') ef bf''-^ ] r |  %53 
   \time 19/16
-  f16 [a''8 af'16] r [g'\pp( f''8--)] ef16\ff [bf''8 f16] bf''8 [af'16 (c'''] bf'')^[ ef8( ]|  %54
+  f16 [a''8 af'16] r [g'_\smallPP( f''8--)] ef16_\smallFF [bf''8 f16] bf''8 [af'16 (c'''] bf'')^[ ef8( ]|  %54
   \time 10/8
-  f16) [a''8 af'16] r [f'\pp ( ef''8--)] ef16\ff [bf''8 f16] bf''8 [af'16 c'''(] bf'') ^[e a''?-^ r] | %55
+  f16) [a''8 af'16] r [f'_\smallPP ( ef''8--)] ef16_\smallFF [bf''8 f16] bf''8 [af'16 c'''(] bf'') ^[e a''?-^ r] | %55
   \time 19/16
-  f16 [bf''8 af'16] r [ef'\pp( df''8--)] ef16\ff [c'''8 f16] c'''8 [af'16 bf'(] a'16)[ ef8( ] | % 56
+  f16 [bf''8 af'16] r [ef'_\smallPP( df''8--)] ef16_\smallFF [c'''8 f16] c'''8 [af'16 bf'(] a'16)[ ef8( ] | % 56
   \time 10/8
-  f16) [bf''8 af'16] r [df'\pp( c''8--)] ef16\ff [c'''8 f16] c'''8 [af'16 bf''(] a''?16) [ef bf''-^ r]  |
+  f16) [bf''8 af'16] r [df'_\smallPP( c''8--)] ef16_\smallFF [c'''8 f16] c'''8 [af'16 bf''(] a''?16) [ef bf''-^ r]  |
   \time 19/16
-  f16 [c'''8 af'16] r [ef'\pp( df''8--)] ef16\ff [bf''8 f16] bf''8 [af'16 a''?16( ] bf'') [ef8(] | 
+  f16 [c'''8 af'16] r [ef'_\smallPP( df''8--)] ef16_\smallFF [bf''8 f16] bf''8 [af'16 a''?16( ] bf'') [ef8(] | 
   \time 10/8
-  f16) [c'''8 af'16] r [f'\pp( ef''8--)] ef16\ff [bf''8 f16] bf''8 [af'16 a''?(] bf'') [ef c'''-^ r] |
+  f16) [c'''8 af'16] r [f'_\smallPP( ef''8--)] ef16_\smallFF [bf''8 f16] bf''8 [af'16 a''?(] bf'') [ef c'''-^ r] |
   \time 19/16
-  f16 [bf''8 af'16] r [g'16\pp( f''8--)] ef16\ff [a''?8 f16] a''8 [a16 bf''(] c'''16) [ef8(] | %60
+  f16 [bf''8 af'16] r [g'16_\smallPP( f''8--)] ef16_\smallFF [a''?8 f16] a''8 [a16 bf''(] c'''16) [ef8(] | %60
   \time 10/8
-  f16) [bf''8 af'16] r [af'\pp( g''8--)] ef16\ff [a''?8 f16] a''8 [a16 bf''(] c'''16) [e bf''-^] r |
+  f16) [bf''8 af'16] r [af'_\smallPP( g''8--)] ef16_\smallFF [a''?8 f16] a''8 [a16 bf''(] c'''16) [e bf''-^] r |
   \relative {
     \repeat volta 2 { 
       \tempo faster 8 = 144
@@ -350,104 +351,106 @@ sim = \markup { \italic sim.}
   }
 
   \time 18/16   %140
-  g?->[ g'-> cs''->] 
+  \tempo "very light"
+  g?\pp->[ g'-> cs''->] 
   g->[ g'-> e''] 
   fs-> [fs'-> e''->]
   fs-> [fs'-> ds''->]
-  e[ e' d'']
-  e[ e' c''] |
+  e[ e' ds'']
+  e[ e' cs''] |
 
   fs[ fs' cs'']
   fs[ fs' e'']
   g[ g' e'']
-  g[ g'' ds'']
-  fs [fs' d'']
+  g[ g' ds'']
+  fs [fs' ds'']
   fs [fs' cs'']  |
 
-  e[ e' cs'']
+  e\startTextSpan[ e' cs'']
   e[ e' e'']
   fs[ fs' e'']
   fs[ fs' ds'']
   g[ g' ds'']
-  g[ g'' cs'']
+  g[ g' cs''\stopTextSpan]
 
   \relative {
     \time 11/16
-    fs->[ fs' fs' e,->] fs'[ r d,,-> d'] fs' [e,,-> e'] |
+    fs->\ff[ fs' fs' e,->] fs'[ r d,,-> d'] fs' [e,,-> e'] |
     \time 12/16
     fs,-> [fs' fs' e,->] fs'[r d,,-> d'] fs' [e,,-> e' a'] |
-    r8 a-> r16 a-> r8 a16-> [r r a->] |  %145
-    r8[ e,16-> a'->] gs->  r8. r4  |
-    r1. |
+    r8 a-^\< r16 a-^ r8 a16-^ [r r a-^\fff] |  %145
+    r8[ e,16-^ a'-^] gs-^  r8. r4  |
+    r2. |
   }
   \time 3/4  %148
-  fs16->\ff cs'''8.\pp~ 2~ |
-  2.~ |
-  2.\> |  %150
+  \tempo slower 4 = 60
+  fs16-^_\smallFF cs'''8._\smallPP~ 2~ |
+  << 2.~ {s4 s4 s4\>} >>|
+  2. |  %150
 
-  a16->\ff e'''8.\pp~ 2~ |
-  2.\> |
+  a16-^\!_\smallFF e'''8._\smallPP~ << 2~ { s4 s4\>} >>|
+  2. |
 
-  b16->\ff ds'''8.\pp~ 2\> |
+  b16-^\!_\smallFF ds'''8._\smallPP~ 2\> |
 
-  cs'16->\ff a''8.\pp~ 2~ |
-  2.~ |  %155
-  2.\> |
+  cs'16-^\!_\smallFF a''8._\smallPP~ 2~ |
+  << 2.~ {s4 s4 s4\>} >>|  %155
+  2. |
 
-  fs16->\ff cs'''8.\pp~ 2~ |
-  2.\> |
+  fs16-^\!_\smallFF cs'''8._\smallPP~ << 2~ {s4 s4\>} >>|
+  2. |
 
-  a16->\ff e'''8.\pp~ 2\> |
+  a16-^\!_\smallFF e'''8._\smallPP~ 2\> |
 
-  b'16->\ff ds'''8.\pp~ 2~ | %160
-  2.~ |
-  2.\> |
+  b'16-^\!_\smallFF ds'''8._\smallPP~ 2~ | %160
+  << 2.~ {s4 s4 s4\>} >>|
+  2. |
 
-  cs'16->\ff a''8.\pp~ 2~ | % 163
-  2.~ |
-  2.\> |
+  cs'16-^\!_\smallFF a''8._\smallPP~ 2~ | % 163
+  << 2.~ {s4 s4 s4\>} >>|
+  2. |
 
-  d16->\ff cs'''8.\pp~ 2\> |
+  d16-^\!_\smallFF cs'''8._\smallPP~ 2\> |
 
-  fs16->\ff cs''8.\pp~ 2~ | % 167
-  2.~ |
-  2.\> |
+  fs16-^\!_\smallFF cs''8._\smallPP~ 2~ | % 167
+  << 2.~ {s4 s4 s4\>}>> |
+  2. |
 
-  a16->\ff e'''8.\pp~ 2~ | % 170
-  2.~ |
-  2.\> |
+  a16-^\!_\smallFF e'''8._\smallPP~ 2~ | % 170
+  << 2.~ {s4 s4 s4\>} >> |
+  2. |
 
-  b16->\ff ds'''8.\pp~ 2~ |  %173
-  2.\> |
+  b16-^\!_\smallFF ds'''8._\smallPP~ << 2~ {s4 s4\>} >>|  %173
+  2. |
 
-  cs'16->\ff a''8.\pp~ 2\> |
+  cs'16-^\!_\smallFF a''8._\smallPP~ 2\> |
 
-  d'16->\ff cs'''8.\pp~ 2~ | % 176
-  2.~ |
-  2.\> |
+  d'16-^\!_\smallFF cs'''8._\smallPP~ 2~ | % 176
+  << 2.~ { s4 s4 s4\>} >>|
+  2. |
 
-  e'16->\ff fs''8.\pp~ 2~ | % 179
-  2.~ |
-  2.\> |
+  e'16-^\!_\smallFF fs''8._\smallPP~ 2~ | % 179
+  << 2.~ {s4 s4 s4\>} >>|
+  2. |
 
-  fs16->\ff cs'''8.\pp~ 2~ |  %182
-  2.\> |
+  fs16-^\!_\smallFF cs'''8._\smallPP~ << 2~ {s4 s4\>} >> |  %182
+  2. |
 
-  a16->\ff e'''8.\pp~ 2\> |
+  a16-^\!_\smallFF e'''8._\smallPP~ 2 |
 
-  b16->\ff ds'''8.\pp~ 2~ | % 185
-  2.~ |
-  2.\> |
+  b16-^_\smallFF ds'''8._\smallPP~ 2~ | % 185
+  <<2.~ {s4 s4 s4\>} >> |
+  2. |
 
-  cs'16->\ff a''8.\pp~ 2~ | % 188
-  2.~ |
-  2.\> |
+  cs'16-^\!_\smallFF a''8._\smallPP~ 2~ | % 188
+  << 2.~ {s4 s4 s4\>}>> |
+  2.|
 
-  d'16->\ff cs'''8.\pp~ << 2~{s4 s4\>} >> | 2. |  %192/3
+  d'16\!-^_\smallFF cs'''8._\smallPP~ << 2~{s4 s4\>} >> | 2. |  %192/3
 
-  e'16->_\smallFF\! fs''8._\smallPP~ 2\> | % 193
+  e'16-^_\smallFF\! fs''8._\smallPP~ 2\> | % 193
 
-  << c2.~  {s4_\smallPPP\! s4 s4\<} >>
+  << c2.\fermata^\long~  {s4_\smallPPP\! s4\< s4_\growl} >>
   c16_\smallFFF\! r8. r4 r4 \bar "|."
 }
 
