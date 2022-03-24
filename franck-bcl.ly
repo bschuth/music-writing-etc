@@ -132,10 +132,27 @@ cresc = \markup {\italic cresc. }
     g4_"dim." bf d2\pp\stopTextSpan)
     \tempo "a tempo"
     R1 * 4
-    r2_"bsn ii" bf'(\p 
-    b?) r
-    r bf(
-    b?) r %106
+
+    % START Bassoon ossia
+    << {r1 r1 r1 r1}
+    \new Staff \with {
+      \remove "Time_signature_engraver"
+      \magnifyStaff #2/3
+      }
+       {
+      \set Staff.clefGlyph = #"clefs.G"
+      \set Staff.clefPosition = #-2
+      \set Staff.clefTransposition = #-7
+      \set Staff.middleCPosition = #1
+      \set Staff.middleCClefPosition = #1 
+        r2_"bsn ii" bf'(\p 
+        b?) r  %104
+        r bf(  %105
+        b?) r %106 
+        }
+    >>
+    % END
+
     R1 * 2
     r2_"stet" r4 d,\p(
     cs\< d f c' \mark \default
@@ -187,9 +204,24 @@ cresc = \markup {\italic cresc. }
     d~   %159
     d4 r4 r2 | %160
     R1 * 4
-    bf1\pp_"bsn I"
-    R1
-    df1
+    %% START
+    << r1 r1 r1 
+    \new Staff \with {
+      \remove "Time_signature_engraver"
+      \magnifyStaff #2/3
+      }
+      {
+      \set Staff.clefGlyph = #"clefs.G"
+      \set Staff.clefPosition = #-2
+      \set Staff.clefTransposition = #-7
+      \set Staff.middleCPosition = #1
+      \set Staff.middleCClefPosition = #1 
+        bf1\pp_"bsn I"
+        R1
+        df1
+      }
+    >>
+    %% END
     R1 * 3 \mark \default  %G
     R1 * 4
     g1\pp(_"stet"
@@ -197,10 +229,24 @@ cresc = \markup {\italic cresc. }
     d
     g,2) r2\fermata |
     R1 * 4
-    e''1_"bsn1."\pp(
-    cs
-    b
-    e,2) r2\fermata
+    << 
+    {r1 r1 r1 r1 }
+    \new Staff \with {
+      \remove "Time_signature_engraver"
+      \magnifyStaff #2/3
+      }
+       {
+      \set Staff.clefGlyph = #"clefs.G"
+      \set Staff.clefPosition = #-2
+      \set Staff.clefTransposition = #-7
+      \set Staff.middleCPosition = #1
+      \set Staff.middleCClefPosition = #1 
+      e''1_"bsn1."\pp(
+      cs
+      b
+      e,2) r2\fermata
+       }
+       >>
     R1
     R1 \fermata %188
     R1
@@ -210,14 +256,46 @@ cresc = \markup {\italic cresc. }
     df\sf
     d?\sf  %197
     ef\sf
-    df4\f c_"bsn II"( bf df)
-    bf( c bf df)
+    <<
+      { 
+        df4\f r4 r2
+        r1 
+      }
+      \new Staff \with {
+        \remove "Time_signature_engraver"
+        \magnifyStaff #2/3
+      }
+      {
+        \set Staff.clefGlyph = #"clefs.G"
+        \set Staff.clefPosition = #-2
+        \set Staff.clefTransposition = #-7
+        \set Staff.middleCPosition = #1
+        \set Staff.middleCClefPosition = #1 
+        af4(_"bsn II" c bf df)
+        bf( c bf df)
+       }
+    >>
     R1 *2
-    bf1~_"stet"  %203
+    bf1~  %203
     bf
     bf2( c
-    df4) (ds_"bsn II" cs es) %206
-    (cs ds cs es) %207
+    <<
+      { df4) r4 r2
+      r1 }
+      \new Staff \with {
+        \remove "Time_signature_engraver"
+        \magnifyStaff #2/3
+      }
+      {
+        \set Staff.clefGlyph = #"clefs.G"
+        \set Staff.clefPosition = #-2
+        \set Staff.clefTransposition = #-7
+        \set Staff.middleCPosition = #1
+        \set Staff.middleCClefPosition = #1 
+       e4(_"bsn II" ds cs es) %206
+      (cs ds cs es) %207
+      }
+    >>
     R1 * 2
     cs1_"stet"\f~
     cs
@@ -571,6 +649,73 @@ cresc = \markup {\italic cresc. }
         R2. * 7
         \mark \default % H
         R2. * 4
+        r4 e,,2\pp\<( |
+        f8\f) r8 r4 r4 |
+        R2. * 3
+        \mark #9  % I
+        R2. * 2
+        \key f \major
+        R2. * 12
+        R2. * 3
+        \mark #11 %K
+        r2 c'4\mf |
+        d8. df16 bf4.( b8) |
+        bf8. a16 a4 r4 |
+        R2.
+        r4 r4 af4\mf~
+        af af'4.( g8) |
+        gf8. f16 f8( af df_"dim" f) |
+        f8\p( gf_"espress." g4. gf8) |
+        gf( f) f( df\< ef e) |
+        \mark \default %L
+        f2.\f(
+        e2.)
+        f2.\f(
+        e2) e4-.(
+        f-._"molto dim." e-. f-.
+        e-. f-. f-. 
+        f-.\pp) r4 r4 |
+        c,2.~
+        c4 r r
+        df2._"dim"~
+        df4 r r 
+        R2.
+        a4( c2) |
+        f4( df f_"sempre ppp" |
+        df f df  | 
+        \mark \default %M
+        f) r r 
+        R2.
+        \key c \major
+        R2. * 5
+        r4 r g\pp(
+        a bf b
+        c8) r8 r4 r
+        R2. * 10
+        \mark \default %N
+        R2. * 3
+        R2. * 2
+        r4 r af(_"dolciss."^"espress"
+        \key ef \major
+        g c b
+        g2) af4(
+        g\< ef' d8\> b
+        g2)\! af4(
+        g c b
+        bf af g
+        g8 f ef4 f)
+        g2 r4
+        R2. * 3
+        r4 g,2\pp\<( %211
+        af8\f\!) r8 r4 c8 r8 |
+        ef r8 r4 r4 |
+        R2.
+        r4 r4 ef'4\pp
+        ef4.( c8 af f) |
+        ef8.( d16) c4 ef'
+        \mark \default % O
+        ef4.( c8 af f)
+        ef'4.( c8 af f)
       } %relative
     }
   } %score

@@ -2,7 +2,7 @@
 
 ## 1st Mvmt
 
-* Double 1&2 bassoon at 21-24 NO
+* Double 1&2 bassoon at 21-24 NO (not doubling just adding parts)
 * 2 bassoon at 103-106  DONE
 * 2 basson at 165 & 167 DONE
 * 1/2 bassoon at 183-186 DONE
