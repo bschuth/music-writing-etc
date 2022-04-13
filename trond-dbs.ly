@@ -13,7 +13,7 @@
 
 I = \relative {
   \compressMMRests {
-    \clef GG
+    \key c \major
     \time 4/4 R1 | 
     \time 6/4 R1. |
     \time 4/4 R1 * 2 | R1 * 2 | \mark \default
@@ -195,7 +195,6 @@ I = \relative {
 }
 II = \relative {
   \compressMMRests {
-    \clef GG
     \key f \major
     \time 4/4 R1 * 2
     \time 5/4 r1 r4 |
@@ -254,7 +253,6 @@ II = \relative {
 
 IV = \relative {
   \compressMMRests {
-    \clef GG
     \key c \major
     \time 4/4
     R1 * 7 \mark \default
@@ -363,6 +361,7 @@ IV = \relative {
   \header { subtitle = "I" }
   \score { 
     \new Staff { 
+      \clef GG
       \transpose c d {
         \I 
       }
@@ -373,6 +372,7 @@ IV = \relative {
   \header { subtitle = "II" }
   \score {
     \new Staff {
+      \clef GG
       \transpose c d {
         \II
       }
@@ -384,9 +384,39 @@ IV = \relative {
   \header { subtitle = "IV" }
   \score { 
     \new Staff {
+      \clef GG
       \transpose c d { 
         \IV
       }
+    }
+  }
+}
+
+\bookpart {
+  \header { subtitle = "I - original" }
+  \score { 
+    \new Staff { 
+      \clef bass
+        \I 
+    }
+  }
+}
+
+\bookpart {
+  \header { subtitle = "II - original" }
+  \score {
+    \new Staff {
+      \clef bass \II
+    }
+  }
+  \markup { \bold { \huge "Movement III - TACET" }}
+}
+
+\bookpart {
+  \header { subtitle = "IV" }
+  \score { 
+    \new Staff {
+      \clef bass \IV
     }
   }
 }
