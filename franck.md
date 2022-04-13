@@ -6,14 +6,15 @@
 * 2 bassoon at 103-106  DONE
 * 2 basson at 165 & 167 DONE
 * 1/2 bassoon at 183-186 DONE
-* 2 basson at 199-200, 206-207
-* 2 bassoon at 285-6
-* 2 bassoon at 362-364
-* 2 bassoon at 393-396
-* 2 bassoon at 455, 457
+* 2 basson at 199-200, 206-207 DONE
+* 2 bassoon at 285-6 DONE
+* 2 bassoon at 362-364 DONE
+* 2 bassoon at 393-396 DONE
+* 2 bassoon at 455, 457 DONE
 * 2 bassoon 465-468
 
 ## 2nd Mvmt 
+* EHorn cues
 * 2 clar 99-100
 * 2 clar 104-112
 * 2 clar or 2bsn 118-128, 129-134
