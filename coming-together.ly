@@ -404,7 +404,7 @@ music = \relative {
         \override Score.MetronomeMark.padding = #6
         \tempo 4 = 80 - 84
         \time 4/4
-        \clef GG
+        \clef "treble_8"
         \transpose c d {
           \music
         }

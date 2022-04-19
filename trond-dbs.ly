@@ -361,7 +361,7 @@ IV = \relative {
   \header { subtitle = "I" }
   \score { 
     \new Staff { 
-      \clef GG
+      \clef "treble_8"
       \transpose c d {
         \I 
       }
@@ -372,7 +372,7 @@ IV = \relative {
   \header { subtitle = "II" }
   \score {
     \new Staff {
-      \clef GG
+      \clef "treble_8"
       \transpose c d {
         \II
       }
@@ -384,7 +384,7 @@ IV = \relative {
   \header { subtitle = "IV" }
   \score { 
     \new Staff {
-      \clef GG
+      \clef "treble_8"
       \transpose c d { 
         \IV
       }

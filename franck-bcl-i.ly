@@ -23,7 +23,7 @@
     \RemoveAllEmptyStaves
   }
   \relative {
-    \clef GG
+    \clef "treble_8"
     R1 * 102
     r2_"bsn ii" bf'(\p 
     b?) r  %104

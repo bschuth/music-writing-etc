@@ -36,13 +36,13 @@ cresc = \markup {\italic cresc. }
           }
         % OSSIA
         \relative { 
-          \clef GG
+          \clef "treble_8"
           \partial 4 r4
         }
         
         % MAIN PARTR
         \new Staff \relative {
-          \clef GG
+          \clef "treble_8"
           \key ef \major
           \partial 4 r4
           R2. * 15 \mark \default %A

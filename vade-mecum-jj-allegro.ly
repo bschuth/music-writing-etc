@@ -42,7 +42,7 @@ addStacc = #(define-music-function (parser location music)
       \key a \major
       \tempo Allegro
       \relative {
-        fs8--[ \breathe \addStacc {gs16 gs a a] bs bs\< cs cs d\! d |
+        fs8--\p[ \breathe \addStacc {gs16 gs a a] bs bs\< cs cs d\! d |
         cs cs\> bs bs\! cs cs bs bs a a gs gs} |
         fs8--[ \breathe \addStacc{ gs16 gs a a] bs bs\< cs cs\! d d |
         cs\> cs bs \! bs cs cs bs bs a a gs gs |
@@ -66,15 +66,15 @@ addStacc = #(define-music-function (parser location music)
         
         fs gs gs a a bs bs cs cs fs\< fs a | }
         a\f\>( gs) gs\!( fs) fs( d) d( cs) cs( a) a( fs) |
-        gs?8\mf--[ \breathe \addStacc{b16 cs cs d] d es es fs\< fs es\! |
-        es\> fs fs\! cs cs b b a a fs fs gs | }
+        gs?8\mf--[ \breathe \addStacc{b16^"R" cs cs d] d es es fs\< fs es\! |
+        es\> d d\! cs cs b b a a fs fs gs | }
 
         gs8--[ \breathe \addStacc{b16 cs cs d] d es es fs\< fs es |
         es\> d d\! cs cs b b a a fs fs gs | }
         gs( b) b( cs) cs( es) es( gs) gs( b\<) b( d\!) |
         d\f\>( cs) cs\!( bs) bs( b) b( gs) gs-. a-. fs8-> \breathe |  % 24
 
-        \addStacc{f,16\f fs as as cs cs e e  es es\< fs fs |
+        \addStacc{fs,16\f fs as as cs cs e e  es es\< fs fs |
         g\> g fs\! fs es es e e cs cs as as |
         fs fs as as cs cs e e es es\< fs fs |
         g\> g fs\! fs es es e e cs cs as as } | % 28
@@ -146,9 +146,9 @@ addStacc = #(define-music-function (parser location music)
           \tuplet 3/2 8 {gs ( a) a}
           \tuplet 3/2 8 {a ( bs) bs}
           \tuplet 3/2 8 {bs ( cs) cs\<}
-          \tuplet 3/2 8 {cs( ds) ds} |
+          \tuplet 3/2 8 {cs( d) d} |
 
-          \tuplet 3/2 8 {ds\!( cs) cs}
+          \tuplet 3/2 8 {d\!( cs) cs}
           \tuplet 3/2 8 {cs( bs) bs}
           \tuplet 3/2 8 {bs( cs) cs}
           \tuplet 3/2 8 {cs( bs) bs}
@@ -226,9 +226,9 @@ addStacc = #(define-music-function (parser location music)
           cs8]  | %74
 
           \addStacc{ \tuplet 3/2 8 {fs,16^"leger"\mf( gs a}
-          \tuplet 3/2 8 {bs cs d?} 
-          \tuplet 3/2 8 {es fs gs?} 
-          \tuplet 3/2 8 {a gs fs} 
+          \tuplet 3/2 8 {bs^"R" cs?^"L" d?} 
+          \tuplet 3/2 8 {es fs^"x" gs?} 
+          \tuplet 3/2 8 {a gs fs^"x"} 
           \tuplet 3/2 8 {es fs gs?} 
           \tuplet 3/2 8 {a b? bs)}  |
 
@@ -236,12 +236,12 @@ addStacc = #(define-music-function (parser location music)
           \tuplet 3/2 8 {bs a? bs} 
           \tuplet 3/2 8 {a gs a} 
           \tuplet 3/2 8 {fs es fs} 
-          \tuplet 3/2 8 {es d cs} 
-          \tuplet 3/2 8 {bs? a gs)}  |
+          \tuplet 3/2 8 {es? d cs^"L"} 
+          \tuplet 3/2 8 {bs?^"R" a gs)}  |
 
           \tuplet 3/2 8 {fs( gs a} 
-          \tuplet 3/2 8 {bs cs d} 
-          \tuplet 3/2 8 {es fs gs} 
+          \tuplet 3/2 8 {bs^"R" cs^"L" d} 
+          \tuplet 3/2 8 {es fs^"x" gs?} 
           \tuplet 3/2 8 {a gs fs} 
           \tuplet 3/2 8 {es fs gs} 
           \tuplet 3/2 8 {a b bs)}  |
@@ -250,8 +250,8 @@ addStacc = #(define-music-function (parser location music)
           \tuplet 3/2 8 {bs a? bs} 
           \tuplet 3/2 8 {a gs a} 
           \tuplet 3/2 8 {fs es fs} 
-          \tuplet 3/2 8 {es d cs} 
-          \tuplet 3/2 8 {bs? a gs)}  | }
+          \tuplet 3/2 8 {es d cs^"L"} 
+          \tuplet 3/2 8 {bs?^"R" a gs)}  | }
 
           fs8--[
           \tuplet 3/2 8 {fs,16( a )a]} 
@@ -265,21 +265,21 @@ addStacc = #(define-music-function (parser location music)
           \tuplet 3/2 8 {a( cs )cs} 
           \addStacc{\tuplet 3/2 8 {cs( a fs} 
           \tuplet 3/2 8 {cs a fs} 
-          \tuplet 3/2 8 {cs a fs}) } |  %80
+          \tuplet 3/2 8 {cs a fs^"L"}) } |  %80
 
-          gs8--[
+          gs?8--[
           \addStacc{\tuplet 3/2 8 {gs'?16\mf( a as]}
           \tuplet 3/2 8 {b bs cs)} 
           \tuplet 3/2 8 {d( ds e} 
           \tuplet 3/2 8 {es fs fss} 
           \tuplet 3/2 8 {gs a as)}  }  | %81
 
-          \tuplet 3/2 8 {b->( gs) b->(} 
+          \tuplet 3/2 8 {b->( gs?) b->(} 
           \tuplet 3/2 8 {gs) es->( gs)} 
           \tuplet 3/2 8 {es->( d) es->(} 
           \tuplet 3/2 8 {d) b->( d)} 
           \tuplet 3/2 8 {b->( gs) b->(} 
-          \tuplet 3/2 8 {gs) e->( cs)}  | %82
+          \tuplet 3/2 8 {gs) es?->( cs)}  | %82
 
           gs'8--[
           \addStacc{\tuplet 3/2 8 {b16 bs cs}]
@@ -289,18 +289,18 @@ addStacc = #(define-music-function (parser location music)
           \tuplet 3/2 8 {b bs cs)}} | %83
 
           \tuplet 3/2 8 {d->( b) d->(} 
-          \tuplet 3/2 8 {b) gs->( b)} 
+          \tuplet 3/2 8 {b) gs?->( b)} 
           \tuplet 3/2 8 {gs->( es) gs->(} 
-          \tuplet 3/2 8 {es) d->( es)} 
+          \tuplet 3/2 8 {es) d?->( es?)} 
           \tuplet 3/2 8 {d->( b) d->(} 
-          \tuplet 3/2 8 {b) gs->( gs,)}  | %84
+          \tuplet 3/2 8 {b) gs->( gs,?)}  | %84
           
-          \tuplet 3/2 8 {cs\f( es) es}
+          \tuplet 3/2 8 {cs?\f( es) es}
           \tuplet 3/2 8 {es( gs) gs}
           \tuplet 3/2 8 {gs( b) b}
           \tuplet 3/2 8 {b( cs) cs}
           \tuplet 3/2 8 {cs( es) es}
-          \tuplet 3/2 8 {es( gs) gs} |
+          \tuplet 3/2 8 {es( gs?) gs} |
 
           \tuplet 3/2 8 {gs( b) b} 
           \tuplet 3/2 8 {b( cs) cs} 
