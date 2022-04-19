@@ -136,7 +136,7 @@ vlntwo = \new Staff {
     r4 a-. |
     r8 e8 fs fs |
     e4 r8 cs' |
-    d a g' a,16 b |
+    d a e' a,16 b |
     cs8 d e e, |
     e r r4 |
     r8 cs'16 d e8 r |
@@ -144,7 +144,7 @@ vlntwo = \new Staff {
     r8 cs,8 d a |
     a r8 r4 |
     r8 d'16 e fs8 r |
-    R1 |
+    R2 |
     r8 d, b'4~ |
     b8 g e g |
     a2~ | %38
