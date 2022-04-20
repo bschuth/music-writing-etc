@@ -1,9 +1,0 @@
-\contentsline {part}{I\hspace {1em}Introduction}{1}%
-\contentsline {part}{II\hspace {1em}The Writing}{3}%
-\contentsline {chapter}{\numberline {1}15 October 2012}{4}%
-\contentsline {chapter}{\numberline {2}20 October 2012}{7}%
-\contentsline {chapter}{\numberline {3}4 November 2012}{9}%
-\contentsline {chapter}{\numberline {4}12 November 2012}{11}%
-\contentsline {chapter}{\numberline {5}15 November 2012}{14}%
-\contentsline {chapter}{\numberline {6}16 November 2012}{17}%
-\contentsline {chapter}{\numberline {7}26 November 2012}{19}%
