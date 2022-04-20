@@ -1,0 +1,14 @@
+/Users/brianschuth/code/bmint-scrape/bin/Debug/netcoreapp3.1/bmint-scrape.deps.json
+/Users/brianschuth/code/bmint-scrape/bin/Debug/netcoreapp3.1/bmint-scrape.runtimeconfig.json
+/Users/brianschuth/code/bmint-scrape/bin/Debug/netcoreapp3.1/bmint-scrape.runtimeconfig.dev.json
+/Users/brianschuth/code/bmint-scrape/bin/Debug/netcoreapp3.1/bmint-scrape.dll
+/Users/brianschuth/code/bmint-scrape/bin/Debug/netcoreapp3.1/bmint-scrape.pdb
+/Users/brianschuth/code/bmint-scrape/obj/Debug/netcoreapp3.1/bmint-scrape.csprojAssemblyReference.cache
+/Users/brianschuth/code/bmint-scrape/obj/Debug/netcoreapp3.1/bmint-scrape.AssemblyInfoInputs.cache
+/Users/brianschuth/code/bmint-scrape/obj/Debug/netcoreapp3.1/bmint-scrape.AssemblyInfo.cs
+/Users/brianschuth/code/bmint-scrape/obj/Debug/netcoreapp3.1/bmint-scrape.csproj.CoreCompileInputs.cache
+/Users/brianschuth/code/bmint-scrape/obj/Debug/netcoreapp3.1/bmint-scrape.dll
+/Users/brianschuth/code/bmint-scrape/obj/Debug/netcoreapp3.1/bmint-scrape.pdb
+/Users/brianschuth/code/bmint-scrape/obj/Debug/netcoreapp3.1/bmint-scrape.genruntimeconfig.cache
+/Users/brianschuth/code/bmint-scrape/bin/Debug/netcoreapp3.1/HtmlAgilityPack.dll
+/Users/brianschuth/code/bmint-scrape/obj/Debug/netcoreapp3.1/bmint-scrape.csproj.CopyComplete
