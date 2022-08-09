@@ -375,6 +375,78 @@ music = \relative {
   g, bf c d 
   f-> g, bf c
   d-> g, bf c-> | %82 
+  g^\havepassed bf-> g-> bf'-> 
+  g, bf c d
+  f g-> g, bf
+  c d f-> g, | %83
+  bf^\soquick c d->
+  g, bf c-> g
+  bf-> g-> g bf c 
+  d f g-> g, | %84
+  bf^\itext c d f->
+  g, bf c d->
+  g, bf c-> g
+  bf-> g-> bf c | %85
+  d^\amtext f g-> g,
+  bf c d f->
+  g, bf c d->
+  g, bf c-> g | %86
+  bf-> g-> c d 
+  f g-> g, bf
+  c d f-> g,
+  bf c d-> g, | %87
+  bf c-> g bf->
+  g-> d' f g->
+  g, bf c d 
+  f-> g, bf c | %88
+  d-> g, bf c->
+  g bf-> g-> f'
+  g-> g, bf c 
+  d f-> g, bf | %89
+  c d-> g, bf
+  c g bf-> g->
+  g'-> g, bf c
+  d f-> g, bf | %90
+  c d-> g, bf
+  c-> g b-> g-> 
+  g bf c d 
+  f-> g, bf c | %91
+  d-> g, bf c-> 
+  g bf-> g-> bf
+  c d f-> g,
+  bf c d-> g, | %92
+  bf c-> g bf->
+  g-> c d f->
+  g, bf c d->
+  g, bf c-> g | %93
+  bf-> g-> d' f->
+  g, bf c d->
+  g, bf c-> g
+  bf-> g-> f'-> g, | %94
+  bf c d-> g,
+  bf c-> g bf->
+  g-> g bf c 
+  d-> g, bf c-> | %95
+  g bf-> g-> bf 
+  c d-> g, bf
+  c-> g bf-> g->
+  c d-> g, bf | %96
+  c-> g bf-> g->
+  d'-> g, bf c->
+  g bf-> g-> g 
+  bf c-> g bf | %97
+  g-> bf c-> g 
+  bf-> g-> c-> g
+  bf-> g-> g bf->
+  g-> bf-> g-> g-> | %98
+  g g bf g 
+  bf g g bf
+  g c g bf
+  g c bf g | %99
+  bf g c bf 
+  g g bf g
+  c bf g d'
+  g, bf g c | %100
 }
 
 \paper {
