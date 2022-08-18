@@ -37,7 +37,27 @@ ahead = \markup{\small \sans {"AHEAD"}}
 butifeel = \markup{\small \sans {"BUT I FEEL"}}
 secure = \markup{\small \sans {"SECURE"}}
 andready = \markup{\small \sans {"AND READY."}}
-
+aslovers = \markup{\small \sans{"AS LOVERS"}}
+willcontrast = \markup{\small \sans{"WILL CONTRAST"}}
+theiremotions = \markup{\small \sans{"THEIR EMOTIONS"}}
+intimes = \markup{\small \sans{"IN TIMES"}}
+ofcrisis = \markup{\small \sans{"OF CRISIS"}}
+dealing = \markup{\small \sans{"SO AM I DEALING"}}
+environment = \markup{\small \sans{"WITH MY ENVIRONMENT."}}
+brutality = \markup{\small \sans{"IN THE INDIFFERENT BRUTALITY,"}}
+noise = \markup{\small \sans{"THE INCESSANT NOISE,"}}
+food = \markup{\small \sans{"THE EXPERIMENTAL CHEMISTRY OF FOOD,"}}
+ravings = \markup{\small \sans{"THE RAVINGS OF LOST HYSTERICAL MEN,"}}
+act = \markup{\small \sans{"I CAN ACT"}}
+withclarity = \markup{\small \sans{"WITH CLARITY"}}
+andmeaning = \markup{\small \sans{"AND MEANING."}}
+deliberate = \markup{\small \sans{"I AM DELIBERATE--"}}
+calculating = \markup{\small \sans{"SOMETIMES EVEN CALCULATING--"}}
+seldom = \markup{\small \sans{"SELDOM"}}
+employing = \markup{\small \sans{"EMPLOYING HISTRIONICS"}}
+except = \markup{\small \sans{"EXCEPT AS A TEST"}}
+reactions = \markup{\small \sans{"OF THE REACTIONS"}}
+ofothers = \markup{\small \sans{"OF OTHERS."}}
 
 music = \relative {
   \key f \major
@@ -391,275 +411,278 @@ music = \relative {
   bf c d f->
   g, bf c d->
   g, bf c-> g | %86
-  bf-> g-> c d 
+  bf->^\intext g-> c d 
   f g-> g, bf
   c d f-> g,
   bf c d-> g, | %87
-  bf c-> g bf->
+  bf^\excellent c-> g bf->
   g-> d' f g->
   g, bf c d 
   f-> g, bf c | %88
-  d-> g, bf c->
+  d->^\physical g, bf c->
   g bf-> g-> f'
   g-> g, bf c 
   d f-> g, bf | %89
-  c d-> g, bf
+  c^\andemotional d-> g, bf
   c g bf-> g->
   g'-> g, bf c
   d f-> g, bf | %90
-  c d-> g, bf
+  c^\health d-> g, bf
   c-> g b-> g-> 
   g bf c d 
   f-> g, bf c | %91
-  d-> g, bf c-> 
+  d->^\doubtless g, bf c-> 
   g bf-> g-> bf
   c d f-> g,
   bf c d-> g, | %92
-  bf c-> g bf->
+  bf^\subtle c-> g bf->
   g-> c d f->
   g, bf c d->
   g, bf c-> g | %93
-  bf-> g-> d' f->
+  bf->^\surprises g-> d' f->
   g, bf c d->
   g, bf c-> g
   bf-> g-> f'-> g, | %94
-  bf c d-> g,
+  bf^\ahead c d-> g,
   bf c-> g bf->
   g-> g bf c 
   d-> g, bf c-> | %95
-  g bf-> g-> bf 
+  g^\butifeel bf-> g-> bf 
   c d-> g, bf
   c-> g bf-> g->
   c d-> g, bf | %96
-  c-> g bf-> g->
+  c->^\secure g bf-> g->
   d'-> g, bf c->
   g bf-> g-> g 
   bf c-> g bf | %97
-  g-> bf c-> g 
+  g->^\andready bf c-> g 
   bf-> g-> c-> g
   bf-> g-> g bf->
   g-> bf-> g-> g-> | %98
-  g g bf g 
+  \mark \default
+  g\p^\aslovers g bf g 
   bf g g bf
   g c g bf
   g c bf g | %99
-  bf g c bf 
+  bf^\willcontrast g c bf 
   g g bf g
   c bf g d'
   g, bf g c | %100
-  bf g d' c
+  bf^\theiremotions g d' c
   g bf g c
   bf g d' c 
   bf g bf g | %101
-  c bf g d'
+  c^\intimes bf g d'
   c bf g g 
   bf g c bf
   g d' c bf | %102
-  g f' g, bf 
+  g^\ofcrisis f' g, bf 
   g c bf g
   d' c bf g
   f' d g, bf | %103
-  g c bf g
+  g^\dealing c bf g
   d' c bf g
   f' d c g
   bf g c bf | %104
-  g d' c bf
+  g^\environment d' c bf
   g f' d c
   bf g bf g
   c bf g d' | %105
-  c bf g f'
+  c^\ithink bf g f'
   d c bf g 
   g bf g c
   bf g d' c | %106
-  bf g f' d
+  bf^\thecom g f' d
   c bf g g'
   g, bf g c 
   bf g d' c | %107
-  bf g f' d
+  bf^\ofage g f' d
   c bf g' g
   f g, bf g
   c bf g d' | %108
-  c bf g f'
+  c^\andagr bf g f'
   d c bf g
   g'f d g,
   bf g c bf | %109
-  g d' c bf
+  g^\isresp d' c bf
   g f' d c 
   bf g g' f
   d c g bf | %110
-  g c bf g
+  g^\forthesp c bf g
   d' c bf g
   f' d c bf
   g g' f d | %111
-  c bf g bf
+  c^\ofthepass bf g bf
   g c bf g 
   d' c bf g
   f' d c bf | %112
-  g g' f d
+  g^\itssix g' f d
   c bf g g
   bf g c bf
   g d' c bf | %113
-  g f' d c 
+  g^\andican f' d c 
   bf g g' f
   d c bf g
   g' g, bf g | %114
-  c bf g d' 
+  c^\truth bf g d' 
   c bf g f'
   d c bf g
   g' f d c | % 115
-  bf g bf' g 
+  bf^\few g bf' g 
   g, bf g c
   bf g d' c
   bf g f' d | %116
-  c bf g g'
+  c^\inmy bf g g'
   f d c bf
   g bf' g f
   g, bf g c | %117
-  bf g d' c 
+  bf^\havepassed g d' c 
   bf g f' d
   c bf g g'
   f d c bf | %118
-  g bf' g f 
+  g^\soquick bf' g f 
   d g, bf g
   c bf g d'
   c bf g f' | %119
-  d c bf g 
+  d^\itext c bf g 
   g' f d c
   bf g bf' g 
   f d c g | %120
-  bf g c bf
+  bf^\amtext g c bf
   g d' c bf 
   g f' d c
   bf g g' f | %121
-  d c bf g 
+  d^\intext c bf g 
   bf' g f d
   c bf g bf
   g c bf g | %122 
-  d' c bf g
+  d'^\excellent c bf g
   f' d c bf 
   g g' f d
   c bf g bf' | %123
-  g f d c 
+  g^\physical f d c 
   bf g bf g
   c bf g d' 
   c bf g f' | %124
-  d c bf g
+  d^\andemotional c bf g
   g' f d c
   bf g bf' g 
   f d c bf | %125
-  g g c bf
+  g^\health g c bf
   g d' c bf
   g f' d c 
   bf g g' f | %126
-  d c bf g
+  d^\doubtless c bf g
   bf' g f d 
   c bf g c
   bf g d' c | %127
-  bf g f' d
+  bf^\subtle g f' d
   c bf g g'
   f d c bf 
   g bf' g f | %128
-  d c bf g
+  d^\surprises c bf g
   bf g d' c
   bf g f' d 
   c bf g g' | %129
-  f d c bf 
+  f^\ahead d c bf 
   g bf' g f
   d c bf g 
   g d' c bf | %130
-  g f' d c
+  g^\butifeel f' d c
   bf g g' f 
   d c bf g
   bf' g f d | %131
-  c bf g d'
+  c^\secure bf g d'
   c bf g f'
   d c bf g
   g' f d c | %132
-  bf g bf' g 
+  bf^\andready g bf' g 
   f d c bf
   g c bf g
   f' d c bf | %133
-  g g' f d 
+  g^\aslovers g' f d 
   c bf g bf'
   g f d c
   bf g bf g | %134
-  f' d c bf g g' f d
+  f'^\willcontrast d c bf g g' f d
   c bf g bf' g f d c |  %135
-  bf g g f' d c bf g
+  bf^\theiremotions g g f' d c bf g
   g' f d c bf g bf' g | %136
-  f d c bf g f' d c 
+  f^\intimes d c bf g f' d c 
   bf g g' f d c bf g | %137
-  bf' g f d c bf g d' 
+  bf'^\ofcrisis g f d c bf g d' 
   c bf g g' f d c bf | %138
-  g bf' g f d c bf g
+  g^\dealing bf' g f d c bf g
   c bf g g' f d c bf | %139
-  g bf' g f d c bf g
+  g^\environment bf' g f d c bf g
   bf g g' f d c bf g | %140
-  bf' g f d c bf g g
+  bf'^\brutality g f d c bf g g
   g' f d c bf g bf' g | %141
-  f d c bf g g' f d 
+  f^\noise d c bf g g' f d 
   c bf g bf' g f d c | %142
-  bf g f' d c bf g bf'
+  bf^\food g f' d c bf g bf'
   g f d c bf g d' c | %143
-  bf g bf' g f d c bf
+  bf^\ravings g bf' g f d c bf
   g c bf g bf' g f d | %144
-  c bf g bf g bf' g f 
+  c^\act bf g bf g bf' g f 
   d c bf g g bf' g f | %145
-  d c bf g bf' g f d 
+  d^\withclarity c bf g bf' g f d 
   c bf g g' f d c bf | %146
-  g f' d c bf g d' c
+  g^\andmeaning f' d c bf g d' c
   bf g c bf g bf g g | %147
-  bf'-. bf g-. bf g f-. bf g 
+  \mark \default
+  bf'-.^\ithink bf g-. bf g f-. bf g 
   f d-. bf' g f d c-. bf' | %148
-  g f d c bf-. bf' g f
+  g^\thecom f d c bf-. bf' g f
   d c bf g-. bf' g f d | %149
-  c bf g-. bf'-. bf g f d c bf g-. bf' g-. bf g f | %150
-  d c bf g-. bf'  g f-. bf g f d c bf g-. bf' g | %151
-  f d-. bf' g f d c bf g-. bf' g f d c-. bf' g | %152
-  f d c bf g-. bf' g f d c bf-. bf' g f d c | %153
-  bf g-. bf' g f d c bf-. bf'-. bf g f d c bf g-. | %154
-  bf' g f d c bf-. bf' g-. bf g f d c bf g-. bf' | %155
-  g f d c bf-. bf' g f-. bf g f d c bf g-. bf' | %156
-  g f d c bf-. bf' g f d-. bf' g f d c bf g-. | %157
-  bf' g f d c bf-. bf' g f d c-. bf' g f d c | %158
-  bf g-. bf' g f d c bf-. bf' g f d c-. bf'-. bf g | %159
-  f d c bf g-. bf' g f d c bf-. bf' g f d c-. | %160
-  bf' g-. bf g f d c bf g-. bf' g f d c bf-. bf' | %161
-  g f d c-. bf' g f-. bf g f d c bf g-. bf' g | %162
-  f d c bf-. bf' g f d c-. bf' g f d-. bf' g f | %163
-  d c bf g-. bf' g f d c bf-. bf' g f d c-. bf' | %164
-  g f d-. bf-. bf' g f d c bf g-. bf' g f d c | %165
-  bf-. bf' g f d c-.  bf' g f d-. bf' g-. bf g f d | %166
-  c bf g-. bf' g f d c bf-. bf' g f d c-. bf' g | %167
-  f d-. bf' g f-. bf g f d c bf g-. bf' g f d | %168
-  c bf-. bf' g f d c-. bf' g f d-. bf' g f-. bf-. bf | %169
-  g f d c bf g-. bf' g f d c bf-. bf' g f d | %170
-  c-. bf' g f d-. bf' g f-. bf g-. bf g f d c bf | %171
-  g-. bf' g f d c bf-. bf' g f d c-. bf' g f d-. | %172
-  bf' g f-. bf g-. bf-. g f d c bf g-. bf' g f d | %173
-  c bf-. bf' g f d c-. bf' g f d-. bf' g f-. bf g-. | %174
-  bf-. f d c bf g-. bf' g f d c bf-. bf' g f d | %175
-  c-. bf' g f d-. bf' g f-. bf g-. bf-. d, c bf g-. bf' | %176
-  g f d c bf-. bf' g f d c-. bf' g f d-. bf' g | %177
-  f-. bf g-. bf-. c, bf g-. bf' g f d c bf-. bf' g f | %178
-  d c-. bf' g f d-. bf' g f-. bf g-. bf-. bf, g-. bf' g | %179
-  f d c bf-. bf' g f d c-. bf' g f d-. bf' g f-. | %180
-  bf g-. bf-. g,-. bf' g f d c bf-. bf' g f d c-. bf' | %181
-  g f d-. bf' g f-. bf g-. bf-. bf g f d c bf-. bf' | %182
-  g f d c-. bf' g f d-. bf' g f-. bf g-. bf-. g f | %183
-  d c bf-. bf' g f d c-. bf' g f d-. bf' g f-. bf | %184
-  g-. bf f d c bf-. bf' g f d c-. bf' g f d-. bf' | %185
-  g f-. bf g-. bf-. d, c bf-. bf' g f d c-. bf' g f | %186
-  d-. bf' g f-. bf g-. bf-. c, d-. bf' g f d c-. bf' g | %187
-  f d-. bf' g f-. bf g-. bf-. bf,-. bf' g f d c-. bf' g | %188
-  f d-. bf' g f-. bf g-. bf-. bf g f d c-. bf' g f | %189
-  d-. bf' g f-. bf g-. bf-. g f d c-. bf' g f d-. bf' | %190
-  g f-. bf g-. bf-. f d c-. bf' g f d-. bf' g f-. bf | %191
-  g-. bf-. d, c-. bf' g f d-. bf' g f-. bf g-. bf-. c,-. bf' | %192
-  g f d-. bf' g f-. bf g-. bf-. bf g f d-. bf' g f-. | %193
-  bf g-. bf-. g f d-. bf' g f-. bf g-. bf-. f d-. bf' g | %194
-  f-. bf g-. bf-. d,-. bf' g f-. bf g-.\> bf-. bf g f-. bf g-. | %195
-  bf-. g f-. bf g-. bf-. f-. bf g-. bf-. bf g-. bf-. g-. bf-. bf-. | %196
+  c^\ofage bf g-. bf'-. bf g f d c bf g-. bf' g-. bf g f | %150
+  d^\andagr c bf g-. bf'  g f-. bf g f d c bf g-. bf' g | %151
+  f^\isresp d-. bf' g f d c bf g-. bf' g f d c-. bf' g | %152
+  f^\forthesp d c bf g-. bf' g f d c bf-. bf' g f d c | %153
+  bf^\ofthepass g-. bf' g f d c bf-. bf'-. bf g f d c bf g-. | %154
+  bf'^\itssix g f d c bf-. bf' g-. bf g f d c bf g-. bf' | %155
+  g^\andican f d c bf-. bf' g f-. bf g f d c bf g-. bf' | %156
+  g^\truth f d c bf-. bf' g f d-. bf' g f d c bf g-. | %157
+  bf'^\few g f d c bf-. bf' g f d c-. bf' g f d c | %158
+  bf^\inmy g-. bf' g f d c bf-. bf' g f d c-. bf'-. bf g | %159
+  f^\havepassed d c bf g-. bf' g f d c bf-. bf' g f d c-. | %160
+  bf'^\soquick g-. bf g f d c bf g-. bf' g f d c bf-. bf' | %161
+  g^\itext f d c-. bf' g f-. bf g f d c bf g-. bf' g | %162
+  f^\amtext d c bf-. bf' g f d c-. bf' g f d-. bf' g f | %163
+  d^\intext c bf g-. bf' g f d c bf-. bf' g f d c-. bf' | %164
+  g^\excellent f d-. bf-. bf' g f d c bf g-. bf' g f d c | %165
+  bf-.^\physical bf' g f d c-.  bf' g f d-. bf' g-. bf g f d | %166
+  c^\andemotional bf g-. bf' g f d c bf-. bf' g f d c-. bf' g | %167
+  f^\health d-. bf' g f-. bf g f d c bf g-. bf' g f d | %168
+  c^\doubtless bf-. bf' g f d c-. bf' g f d-. bf' g f-. bf-. bf | %169
+  g^\subtle f d c bf g-. bf' g f d c bf-. bf' g f d | %170
+  c-.^\surprises bf' g f d-. bf' g f-. bf g-. bf g f d c bf | %171
+  g-.^\ahead bf' g f d c bf-. bf' g f d c-. bf' g f d-. | %172
+  bf'^\butifeel g f-. bf g-. bf-. g f d c bf g-. bf' g f d | %173
+  c^\secure bf-. bf' g f d c-. bf' g f d-. bf' g f-. bf g-. | %174
+  bf-.^\andready f d c bf g-. bf' g f d c bf-. bf' g f d | %175
+  c-.^\aslovers bf' g f d-. bf' g f-. bf g-. bf-. d, c bf g-. bf' | %176
+  g^\willcontrast f d c bf-. bf' g f d c-. bf' g f d-. bf' g | %177
+  f-.^\theiremotions bf g-. bf-. c, bf g-. bf' g f d c bf-. bf' g f | %178
+  d^\intimes c-. bf' g f d-. bf' g f-. bf g-. bf-. bf, g-. bf' g | %179
+  f^\ofcrisis d c bf-. bf' g f d c-. bf' g f d-. bf' g f-. | %180
+  bf^\dealing g-. bf-. g,-. bf' g f d c bf-. bf' g f d c-. bf' | %181
+  g^\environment f d-. bf' g f-. bf g-. bf-. bf g f d c bf-. bf' | %182
+  g^\brutality f d c-. bf' g f d-. bf' g f-. bf g-. bf-. g f | %183
+  d^\noise c bf-. bf' g f d c-. bf' g f d-. bf' g f-. bf | %184
+  g-.^\food bf f d c bf-. bf' g f d c-. bf' g f d-. bf' | %185
+  g^\ravings f-. bf g-. bf-. d, c bf-. bf' g f d c-. bf' g f | %186
+  d-.^\act bf' g f-. bf g-. bf-. c, d-. bf' g f d c-. bf' g | %187
+  f^\withclarity d-. bf' g f-. bf g-. bf-. bf,-. bf' g f d c-. bf' g | %188
+  f^\andmeaning d-. bf' g f-. bf g-. bf-. bf g f d c-. bf' g f | %189
+  d-.^\deliberate bf' g f-. bf g-. bf-. g f d c-. bf' g f d-. bf' | %190
+  g^\calculating f-. bf g-. bf-. f d c-. bf' g f d-. bf' g f-. bf | %191
+  g-.^\seldom bf-. d, c-. bf' g f d-. bf' g f-. bf g-. bf-. c,-. bf' | %192
+  g^\employing f d-. bf' g f-. bf g-. bf-. bf g f d-. bf' g f-. | %193
+  bf^\except g-. bf-. g f d-. bf' g f-. bf g-. bf-. f d-. bf' g | %194
+  f-.^\reactions bf g-. bf-. d,-. bf' g f-. bf g-.\> bf-. bf g f-. bf g-. | %195
+  bf-.^\ofothers g f-. bf g-. bf-. f-. bf g-. bf-. bf g-. bf-. g-. bf-. bf-. | %196
+  \mark \default
   bf\pp bf g bf g bf bf g bf f bf g bf f g bf | %197
   g bf f g bf bf g bf f g bf d, bf' g bf f | %198
   g bf d, f bf g bf f g bf d, f g bf g bf | %199
@@ -712,6 +735,160 @@ music = \relative {
   g, g bf g bf c g bf c d g,bf c d f g, | %246
   bf c d f g g, bf c d f g bf g, bf c d | %247
   f g bf bf, g bf c d f g bf bf, c g bf c | %248
+  d f g bf bf, c d g, bf c d f g bf bf, c | %249
+  d f g, bf c d f g bf bf, c d f g g, bf | %250
+  c d f g bf bf, c d f g bf g, bf c d f | %251
+  g bf bf, c d f g bf c, g bf c d f g bf| %252
+  bf, c d f g bf c, d g, bf c d f g bf bf, | %253
+  c d f g bf c, d f g, bf c d f g bf bf, | %254
+  c d f g bf c, d f g g, bf c d f g bf | %255
+  bf, c d f g bf c, d  f g bf g, bf c d f |%256
+  g bf bf, c d f g bf c, d f g bf d, g, bf |%257
+  c d f g bf bf, c d f g bf c, d f g bf | %258
+  d, f g, bf c d f g bf bf, c d f g bf c, | %259
+  d f g bf d, f g g, bf c d f g bf bf, c | %260
+  d f g bf c, d f g bf d, f g bf g, bf c | %261
+  d f g bf bf, c d f g bf c, d f g bf d, | %262
+  f g bf f g, bf c d f g bf bf, c d f g | %263
+  bf c, d f g bf d, f g bf f g g, bf c d | %264
+  f g bf bf, c d f g bf c, d f g bf d, f | %265
+  g bf f g bf g, bf c d f g bf bf, c d f | %266
+  g bf c, d f g bf d, f g bf f g bf g g, | %267
+  bf c d f g bf bf, c d f g bf c, d f g | %268
+  bf d, f g bf f g bf g bf g, bf c d f g | %269
+  bf bf, c d f g bf c, d f g bf d, f g bf | %270
+  f g bf g bf bf bf, c d f g bf bf, c d f | %271
+  g bf c, d f g bf d, f g bf f g bf g bf | %272
+  bf c, d f  g bf bf, c d f g bf c, d f g | %273
+  bf d, f g bf f g bf g bf bf d, f g bf bf, |%274
+  c d f g bf c, d f g bf d, f g bf f g | %275
+  bf g bf bf f g bf bf, c d f g bf c, d f | % 276
+  g bf d, f g bf f g bf g bf bf g bf bf, c | %277
+  d f g bf c, d f g bf d, f g bf f g bf | %278
+  g bf bf bf bf, c d f g bf c, d f g bf d, | %279
+  f g bf f g bf g bf bf bf, c d f g bf c, | %280
+  d f g bf d, f g bf f g bf g bf bf c, d | %281
+  f g bf c, d f g bf d, f g bf f g bf g | %282
+  bf bf d, f g bf c, d f g bf d, f g bf f | %283
+  g bf g bf bf f g bf c, d f g bf d, f g | %284
+  bf f g bf g bf bf g bf c, d f g bf d, f | %285
+  g bf f g bf g bf bf bf c, d f g bf d, f | %286
+  g bf f g bf g bf bf c, d f g bf d, f g | %287
+  bf f g bf g bf bf d, f g bf d, f g bf f | %288
+  g bf g bf bf f g bf d, f g bf f g bf g | %289
+  bf bf g bf d, f g bf f g bf g bf bf bf d, | %290
+  f g bf f g bf g bf bf d, f g bf f g bf | %291
+  g bf bf f g bf f g bf g bf bf g bf f g | %292
+  bf g bf bf bf f g bf g bf bf f g bf g\< bf | %293
+  bf g bf g 
+  bf bf bf g 
+  bf bf g bf 
+  bf-> bf\fff-> bf-> bf-> | %294
+  bf-> bf-> bf-> bf-> 
+  bf->\> g bf bf 
+  g bf bf bf\f 
+  g bf g bf | %295
+  bf g bf g f bf bf g bf g f bf bf bf g bf | %296
+  g f bf g bf bf g bf g f bf g f bf bf g | %297
+  bf g f bf g f d bf' bf g bf g f bf g f | %298
+  d bf' bf bf g bf g f bf g f d bf' g bf bf | %299
+  g bf g f bf g f d bf' g f bf bf g bf g | %300
+  f bf g f 
+  d bf' g f 
+  d bf' bf g 
+  bf g f bf | %301
+  g f d bf' g f d c bf' bf g bf g g bf g | %302
+  f d bf' g f d c bf' bf bf g bf g f bf g | %303
+  f d bf' g f d c bf' g bf bf g bf g f bf | %304
+  g f d bf' g f d c bf' g f bf bf g bf g | %305
+  f bf g f d bf' g f d c bf' g f d bf' bf | %306
+  g bf g f bf g f d bf' g f d c bf' g f | %307
+  d c bf' bf g bf g f bf g f d bf' g f d | %308
+  c bf' g f d c bf bf' bf g bf g f bf g f | %309
+  d bf' g f d c bf' g f d c bf bf' bf bf g | %310
+  bf g f bf g f d bf' g f d c bf' g f d | %311
+  c bf bf' g bf bf g bf g f bf g f d bf' g | %312
+  f d c bf' g f d c bf bf' g f bf bf g bf | %313
+  g f bf g f d bf' g f d c bf' g f d c | %314
+  bf bf' g f d bf' bf g bf g f bf g f d bf' | %315
+  g f d c bf' g f d c bf bf' g f d c bf' | %316
+  bf g bf g f bf g f d bf' g f d c bf' g | %317
+  f d c bf bf' g f d c bf bf' bf g bf g f | %318
+  bf g f d bf' g f d c bf' g f d c bf bf' | %319
+  g f d c bf g bf' g bf g f bf g f d bf' | %320
+  g f d c bf' g f d c bf bf' g f d c bf | %321
+  g g' bf g f\> bf g f d bf' g f d c bf' g\pp | %322
+  f d c bf bf' g f d c bf g bf' g f bf g | %323
+  f d bf' g f d c bf' g f d c bf bf' g f | %324
+  d c bf g g' f bf g f d bf' g f d c bf' | %325
+  g f d c bf bf' g f d c bf g f' bf g f | %326
+  d bf' g f d c bf' g f d c bf bf' g f d | %327
+  c bf g bf' g f d bf' g f d c bf' g f d | %328
+  c bf bf' g f d c bf\< g g'f d bf g f d | %329
+  c\f bf' g f d c bf bf' g f d c bf' g f' d | %330
+  bf' g f d c bf' g f d c bf bf' g f d c | %331
+  bf g d' bf' g f d c bf' g f d c bf bf' g | %332
+  f d c bf g bf' g f d c bf' g f d c bf | %333
+  bf' g f d c bf g g' f d c bf' g f d c | %334
+  bf bf' g f d c bf g f' d c bf' g f d c | %335
+  bf bf' g f d c bf g d' c bf' g f d c bf | %336
+  bf' g f d c bf g c bf' g f d c bf bf' g | %337
+  f d c bf g bf' g f d c bf bf' g f d c | %338
+  bf g g' f d c bf bf' g f d c bf g f' d | %339
+  c bf bf' g f d c bf g d c bf bf' g f d | %340
+  c d g c bf bf' g f d c bf g bf bf' g f | %341
+  d c bf g bf' g f d c bf g g' f d c bf | %342
+  g f' d c bf\< g d' c bf g c bf g bf g g | %343
+  bf'\ff bf g bf g f bf g f d bf' g f d c bf' | %344
+  g f d c bf bf' g f d c bf g bf' g f d | %345
+  c bf g g' bf g f d c bf g g' f bf g f | %346
+  d c bf g g' f d bf' g f d c bf g g' f | %347
+  d c bf' g f d c bf g g' f d c bf bf' g | %348
+  f d c bf g g' f d c bf g bf' g f d c | %349
+  bf g g' f d c bf g f' bf g f d c bf g | %350
+  g' f d c bf g f' d bf' g f d c bf g g' | %351
+  f d c bf g f' d c bf' g f d c bf g g' | %352
+  f d c bf g f' d c bf bf' g f d c bf g | %353
+  g' f d c bf g f' d c bf g bf' g f d c | %354
+  bf g g' f d c bf g f' d c bf g d' bf' g | %355
+  f d c bf g g' f d c bf g f' d c bf g | %356
+  d' c bf' g f d c bf g g' f d c bf g f' | %357
+  d c bf g d' c bf bf' g f d c bf g g' f| %358
+  d c bf g f' d c bf g d' c bf g bf' g f | %359
+  d c bf g g' f d c bf g f' d c bf g d' | %360
+  c bf g c bf' g f d c bf g g' f d c bf | %361
+  g f' d c bf g d' c bf g c bf bf' g f d | %362
+  c bf g g' f d c bf g f' d c bf g d' c | %363
+  bf g c bf g bf' g f d c bf g g' f d c | %364
+  bf g f' d c bf g d' c bf g c bf g bf bf' | %365
+  g f d c bf g g' f d c bf g f' d c bf | %366
+  g d' c bf g c bf g bf g bf' g f d c bf | %367
+  g g' f d c bf g f' d c bf g d' c bf g | %368
+  c bf g bf g g g' f d c bf g g' f d c | %369
+  bf g f' d c bf g d' c bf g c bf g bf g | %370
+  g f' d c bf g g' f d c bf g f' d c bf | %371
+  g d' c bf g c bf g bf g g d' c bf g g' | %372
+  f d c bf g f' d c bf g d' c bf g c bf | %373
+  g bf g g c bf g g' f d c bf g f' d c | %374
+  bf g d' c bf g c bf g bf g g bf g g' f | %375
+  d c bf g f' d c bf g d' c bf g c bf g | %376
+  bf g g g g' f d c bf g f' d c bf g d' | %377
+  c bf g c bf g bf g g g' f d c bf g f' | %378
+  d c bf g d' c bf g c bf g bf g g f' d | %379
+  c bf g f' d c bf g d' c bf g c bf g bf | %380
+  g g bf c bf g f' d c bf g d' c bf g c | %381
+  bf g bf g g c bf g f' d c bf g d' c bf | %382
+  g c bf g bf g g bf g f' d c bf g d' c | %383
+  bf g c bf g bf g g g f' d c bf g d' c | %384
+  bf g c bf g bf g g f' d c bf g d' c bf | %385
+  g c bf g bf g g d' c bf g d' c bf g c | %386
+  bf g bf g g c bf g d' c bf g c bf g bf |%387
+  g g bf g d' c bf g c bf g bf g g g bf | %388
+  c bf g c bf g bf g g d' c bf g c bf g | %389
+  bf g g c bf g c bf g bf g g bf g c bf | %390
+  g bf g g g c bf g bf g g c bf g bf g | %391
+  g bf g bf g g g bf g g bf g g g g g | %392
+  \bar "|."
 }
 
 \paper {
